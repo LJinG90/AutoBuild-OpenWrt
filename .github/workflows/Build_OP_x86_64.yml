@@ -15,11 +15,11 @@ on:
   #  branches: 
   #    - master
 
-  schedule:
-    - cron: 41 23 * * 3
+  #schedule:
+  #  - cron: 41 23 * * 3
   
-  #watch:
-  #  types: [started]
+  watch:
+    types: [started]
 
 jobs:
   build:
